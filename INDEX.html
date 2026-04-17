@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>STREET-2</title>
+</head>
+<body>
+        <header>
+            <h1>logo</h1>
+        </header>
+        <div class="container-title">Poleras</div>
+        <main>
+            <div class="container-img">
+                <img src="https://m.media-amazon.com/images/I/61TbAX+N2ZL._AC_UY1000_.jpg" alt="imagen-producto">
+            </div>
+            <div class="container-info-product">
+                <div class="container-price">
+                    <span>95.00</span>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <div class="container-details-product">
+                    <div class="form-group">
+                        <label for="colour">Color</label>
+                        <select name="colour" id="colour">
+                            <option disabled selected value="">
+                                Escoge una opción
+                            </option>
+                            <option value="rojo">Rojo 
+                            </option>
+                            <option value="blanco">Blanco 
+                            </option>
+                            <option value="beige">Beige 
+                            </option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="size">Talla</label>
+                        <select name="size" id="size">
+                            <option disabled selected value="">
+                                Escoge una opción
+                            </option>
+                            <option value="L">L 
+                            </option>
+                            <option value="XL">XL 
+                            </option>
+                            <option value="M">M 
+                            </option>
+                        </select>
+                    </div>
+                    <button class="btn-clean">Limpiar</button>
+                </div>
+
+                <div class="container-add-cart">
+                    <div class="container-quantity">
+                        <input type="number" name="" id="" placeholder="1" value="1" min="1" class="input-quantity"
+                        />
+                        <div class="btn-increment-decrement">
+                            <i class="fa-solid fa-chevron-up" id="increment"></i>
+                            <i class="fa-solid fa-chevron-down" id="decrement"></i>
+                        </div>
+                    </div>
+                    <button class="btn-add-to-cart">
+                        <i class="fa-solid fa-plus"></i>
+                        Añadir al carrito
+                    </button>
+                </div>
+
+                <div class="container-description">
+                    <div class="title-description">
+                        <h4>Descripción</h4>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="text-description hidden">
+                        <p>Lorem ipsum dolor sint amet consectetur adipisicing elit. Magnam quae ad aperiam quas. Numquam doloribus nihil, quo sapiente voluptatum provident laboriosam voluptas quia magni, placeat recusandae deleniti expedita sunt reprehenderit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim pariatur sit iusto ratione dolor facere alias voluptatum! Quisquam ab debitis quos deleniti dicta blanditiis dolorem dolor, provident, commodi nam ipsa?</p>
+                    </div>
+                </div>
+
+                <div class="container-additional-information">
+                    <div class="title-additional-information">
+                        <h4>Información adicional</h4>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="text-additional-information hidden">
+                        <p>---------------</p>
+                    </div>
+                </div>  
+
+                <div class="container-reviews">
+                    <div class="title-reviews">
+                        <h4>Reseñas</h4>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="text-reviews hidden">
+                        <p>---------------</p>
+                    </div>
+                </div>  
+
+                <div class="container-social">
+                    <span>Compartir</span>
+                    <div class="container-buttons-social">
+                        <a href="#">
+                            <i class="fa-solid fa-envelope"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#">
+                        <i class="fa-brands fa-twitter"></i></a>
+                        <a href="#">
+                        <i class="fa-brands fa-instagram"></i></a>
+                        <a href="#">
+                        <i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <section class="container-related-products">
+            <h2>Productos Relacionados</h2>
+            <div class="card-list-products">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://romestore.pe/cdn/shop/files/27_115b29f3-9c58-4733-a681-34c773314643.jpg?v=1743013845" 
+                        alt="producto-1">
+                    </div>
+                    <div class="info-card">
+                        <div class="text-product">
+                            <h3>Polera - Urban</h3>
+                            <p class="category">
+                                Polera, Urbana
+
+                            </p>
+                        </div>
+                        <div class="class-price">S/95.00
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="data:image/jpeg;base64,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" 
+                        alt="producto-2">
+                    </div>
+                    <div class="info-card">
+                        <div class="text-product">
+                            <h3>Polera 2 - Urban</h3>
+                            <p class="category">
+                                Polera, Urbana
+
+                            </p>
+                        </div>
+                        <div class="class-price">S/95.00
+
+                        </div>
+                    </div>
+                </div>        
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://looch.com.pe/wp-content/uploads/2022/12/Somos-libres-polera-caballero.webp" 
+                        alt="producto-3">
+                    </div>
+                    <div class="info-card">
+                        <div class="text-product">
+                            <h3>Polera 3 - Urban</h3>
+                            <p class="category">
+                                Polera, Urbana
+
+                            </p>
+                        </div>
+                        <div class="class-price">S/95.00
+
+                        </div>
+                    </div>
+                </div>    
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://yansus.com/cdn/shop/products/polomangalarganegrocarablanca.png?v=1681243413" 
+                        alt="producto-4">
+                    </div>
+                    <div class="info-card">
+                        <div class="text-product">
+                            <h3>Polera 4 - Urban</h3>
+                            <p class="category">
+                                Polera, Urbana
+
+                            </p>
+                        </div>
+                        <div class="class-price">S/95.00
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Footer</p>
+        </footer>
+        <script src="index.js"></script>
+</body>
+</html>
